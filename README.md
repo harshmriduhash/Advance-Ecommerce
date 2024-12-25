@@ -61,14 +61,6 @@ The virtual try-on system leverages MediaPipe and OpenCV for real-time image pro
 
 ---
 
-## ⚙️ Setup Instructions
-
-### Clone the Repository
-```bash
-git clone https://github.com/Rachit-31/Advance-Ecommerce.git
-cd Advanced-Ecommerce
-
-```
 ## Dependencies and Installation
 
 ### Install Dependencies
@@ -84,7 +76,7 @@ cd mlServer
 pip install flask flask-socketio mediapipe opencv-python numpy
 ```
 ## 🌐 Deployment
-The project is deployed at [advance-ecommerce-beta.vercel.app](https://advance-ecommerce-beta.vercel.app/)
+The project is deployed at [https://client-azure-zeta-40.vercel.app/](https://client-azure-zeta-40.vercel.app/)
 
 ## 🤝 Contributing
 Contributions are welcome! Fork this repository, create a feature branch, and submit a pull request.
