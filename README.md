@@ -3,11 +3,6 @@
 This is an advanced e-commerce platform built using the MERN stack, integrated with an AI-powered virtual try-on feature. The virtual try-on is developed using OpenCV, MediaPipe, and Python, enabling users to try products virtually, enhancing their shopping experience.
 
 ---
-
-## 🎥 Demo Video
-[![Watch Demo](https://img.youtube.com/vi/your-video-id-here/maxresdefault.jpg)](https://your-video-link-here.com)
-
----
 ## 🖼️ Screenshots
 
 ### Home Page

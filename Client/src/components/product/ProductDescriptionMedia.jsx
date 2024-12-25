@@ -15,19 +15,19 @@ const DescriptionMediaWrapper = styled.div`
   margin-top: auto;
   margin-bottom: 7%;
 
-  @media(max-width: ${breakpoints.lg}){
+  @media (max-width: ${breakpoints.lg}) {
     height: 260px;
   }
 
-  @media(max-width: ${breakpoints.sm}){
+  @media (max-width: ${breakpoints.sm}) {
     height: 200px;
   }
 
-  video{
+  video {
     object-fit: cover;
   }
 
-  &::after{
+  &::after {
     content: "";
     position: absolute;
     left: 0;
@@ -36,14 +36,14 @@ const DescriptionMediaWrapper = styled.div`
     height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   }
-  .media-title{
+  .media-title {
     position: absolute;
     bottom: 20px;
     left: 16px;
     right: 16px;
     z-index: 1;
   }
-  .media-play-btn{
+  .media-play-btn {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -53,15 +53,15 @@ const DescriptionMediaWrapper = styled.div`
     opacity: 0;
     visibility: hidden;
 
-    &:hover{
-        transform: translate(-50%, -50%) scale(0.9);
+    &:hover {
+      transform: translate(-50%, -50%) scale(0.9);
     }
   }
 
-  &:hover{
-    .media-play-btn{
-        visibility: visible;
-        opacity: 1;
+  &:hover {
+    .media-play-btn {
+      visibility: visible;
+      opacity: 1;
     }
   }
 `;
