@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 
 const NavMenuWrapper = styled.nav`
   margin-top: 32px;
-  
+
   .nav-menu-list {
     row-gap: 8px;
 
@@ -71,11 +71,10 @@ const UserMenu = () => {
       localStorage.removeItem("accessToken");
       toast.success("Successfully Logged Out!");
       navigate("/");
-    }
-    catch (err) {
+    } catch (err) {
       console.log("Error:", err);
     }
-  }
+  };
 
   const location = useLocation();
   return (
@@ -140,7 +139,10 @@ const UserMenu = () => {
             </Link>
           </li>
           <li className="nav-menu-item">
-            <button onClick={handleLogout} className={`nav-menu-link flex items-center`}>
+            <button
+              onClick={handleLogout}
+              className={`nav-menu-link flex items-center`}
+            >
               <span className="nav-link-icon flex items-center justify-center">
                 <img src="./assets/icons/ac_sign_out.svg" alt="" />
               </span>
